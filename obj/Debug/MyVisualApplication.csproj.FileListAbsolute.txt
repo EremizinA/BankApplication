@@ -10,3 +10,4 @@ c:\users\alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyV
 c:\users\alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyVisualApplication\obj\Debug\MyVisualApplication.pdb
 C:\Users\Alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyVisualApplication\obj\Debug\MyVisualApplication.SigninForm.resources
 C:\Users\Alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyVisualApplication\obj\Debug\MyVisualApplication.DebugForm.resources
+C:\Users\Alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyVisualApplication\obj\Debug\MyVisualApplication.WorkForm.resources
