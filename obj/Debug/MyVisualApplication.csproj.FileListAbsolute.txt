@@ -11,3 +11,5 @@ c:\users\alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyV
 C:\Users\Alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyVisualApplication\obj\Debug\MyVisualApplication.SigninForm.resources
 C:\Users\Alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyVisualApplication\obj\Debug\MyVisualApplication.DebugForm.resources
 C:\Users\Alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyVisualApplication\obj\Debug\MyVisualApplication.WorkForm.resources
+C:\Users\Alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyVisualApplication\bin\Debug\BankQueryLibrary.dll
+C:\Users\Alexander\documents\visual studio 2015\Projects\MyVisualApplication\MyVisualApplication\bin\Debug\BankQueryLibrary.pdb

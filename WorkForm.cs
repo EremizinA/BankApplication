@@ -12,6 +12,8 @@ namespace MyVisualApplication
 {
     public partial class WorkForm : Form
     {
+
+
         public WorkForm()
         {
             InitializeComponent();
@@ -27,5 +29,9 @@ namespace MyVisualApplication
 
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

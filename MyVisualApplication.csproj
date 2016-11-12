@@ -62,9 +62,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ATM.cs" />
-    <Compile Include="Bank.cs" />
-    <Compile Include="Card.cs" />
     <Compile Include="DebugForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,7 +74,6 @@
     <Compile Include="GreetingsForm.Designer.cs">
       <DependentUpon>GreetingsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="IBankOperation.cs" />
     <Compile Include="MyDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -97,8 +93,6 @@
     <Compile Include="SigninForm.Designer.cs">
       <DependentUpon>SigninForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Terminal.cs" />
-    <Compile Include="Client.cs" />
     <Compile Include="WorkForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +160,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BankQueryLibrary\BankQueryLibrary.csproj">
+      <Project>{8aa46d36-7907-44dd-baea-de9b7ea6dc35}</Project>
+      <Name>BankQueryLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

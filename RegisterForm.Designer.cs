@@ -45,11 +45,11 @@
             this.LoginForm = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.BirthForm = new System.Windows.Forms.TextBox();
-            this.BirthLabel = new System.Windows.Forms.Label();
-            this.SurNameLabel = new System.Windows.Forms.Label();
-            this.FirstNameLabel = new System.Windows.Forms.Label();
             this.SurNameForm = new System.Windows.Forms.TextBox();
+            this.SurNameLabel = new System.Windows.Forms.Label();
+            this.FatherNameLabel = new System.Windows.Forms.Label();
+            this.FirstNameLabel = new System.Windows.Forms.Label();
+            this.FatherNameForm = new System.Windows.Forms.TextBox();
             this.FirstNameForm = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -212,41 +212,41 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.BirthForm);
-            this.panel2.Controls.Add(this.BirthLabel);
-            this.panel2.Controls.Add(this.SurNameLabel);
-            this.panel2.Controls.Add(this.FirstNameLabel);
             this.panel2.Controls.Add(this.SurNameForm);
+            this.panel2.Controls.Add(this.SurNameLabel);
+            this.panel2.Controls.Add(this.FatherNameLabel);
+            this.panel2.Controls.Add(this.FirstNameLabel);
+            this.panel2.Controls.Add(this.FatherNameForm);
             this.panel2.Controls.Add(this.FirstNameForm);
             this.panel2.Location = new System.Drawing.Point(61, 25);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(332, 184);
             this.panel2.TabIndex = 0;
             // 
-            // BirthForm
+            // SurNameForm
             // 
-            this.BirthForm.Location = new System.Drawing.Point(61, 149);
-            this.BirthForm.Name = "BirthForm";
-            this.BirthForm.Size = new System.Drawing.Size(210, 20);
-            this.BirthForm.TabIndex = 4;
-            // 
-            // BirthLabel
-            // 
-            this.BirthLabel.AutoSize = true;
-            this.BirthLabel.Location = new System.Drawing.Point(134, 124);
-            this.BirthLabel.Name = "BirthLabel";
-            this.BirthLabel.Size = new System.Drawing.Size(66, 13);
-            this.BirthLabel.TabIndex = 3;
-            this.BirthLabel.Text = "Date of Birth";
+            this.SurNameForm.Location = new System.Drawing.Point(61, 149);
+            this.SurNameForm.Name = "SurNameForm";
+            this.SurNameForm.Size = new System.Drawing.Size(210, 20);
+            this.SurNameForm.TabIndex = 4;
             // 
             // SurNameLabel
             // 
             this.SurNameLabel.AutoSize = true;
-            this.SurNameLabel.Location = new System.Drawing.Point(143, 67);
+            this.SurNameLabel.Location = new System.Drawing.Point(134, 124);
             this.SurNameLabel.Name = "SurNameLabel";
             this.SurNameLabel.Size = new System.Drawing.Size(49, 13);
             this.SurNameLabel.TabIndex = 3;
             this.SurNameLabel.Text = "Surname";
+            // 
+            // FatherNameLabel
+            // 
+            this.FatherNameLabel.AutoSize = true;
+            this.FatherNameLabel.Location = new System.Drawing.Point(143, 67);
+            this.FatherNameLabel.Name = "FatherNameLabel";
+            this.FatherNameLabel.Size = new System.Drawing.Size(68, 13);
+            this.FatherNameLabel.TabIndex = 3;
+            this.FatherNameLabel.Text = "Father Name";
             // 
             // FirstNameLabel
             // 
@@ -257,12 +257,12 @@
             this.FirstNameLabel.TabIndex = 2;
             this.FirstNameLabel.Text = "First Name";
             // 
-            // SurNameForm
+            // FatherNameForm
             // 
-            this.SurNameForm.Location = new System.Drawing.Point(61, 92);
-            this.SurNameForm.Name = "SurNameForm";
-            this.SurNameForm.Size = new System.Drawing.Size(210, 20);
-            this.SurNameForm.TabIndex = 1;
+            this.FatherNameForm.Location = new System.Drawing.Point(61, 92);
+            this.FatherNameForm.Name = "FatherNameForm";
+            this.FatherNameForm.Size = new System.Drawing.Size(210, 20);
+            this.FatherNameForm.TabIndex = 1;
             // 
             // FirstNameForm
             // 
@@ -311,11 +311,11 @@
         private System.Windows.Forms.TextBox LoginForm;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox BirthForm;
-        private System.Windows.Forms.Label BirthLabel;
-        private System.Windows.Forms.Label SurNameLabel;
-        private System.Windows.Forms.Label FirstNameLabel;
         private System.Windows.Forms.TextBox SurNameForm;
+        private System.Windows.Forms.Label SurNameLabel;
+        private System.Windows.Forms.Label FatherNameLabel;
+        private System.Windows.Forms.Label FirstNameLabel;
+        private System.Windows.Forms.TextBox FatherNameForm;
         private System.Windows.Forms.TextBox FirstNameForm;
         private System.Windows.Forms.Button SendButton;
     }

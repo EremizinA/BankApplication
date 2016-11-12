@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Reflection;
 using System.Data.SqlClient;
 using System.IO;
+using BankQueryLibrary;
 
 namespace MyVisualApplication
 {
@@ -29,13 +30,21 @@ namespace MyVisualApplication
 
         private void SendButton_Click(object sender, EventArgs e)
         {
-            var tbList = (from Control tb in RegisterForm.ActiveForm.Controls
-                            where tb is TextBox
-                            select tb).ToList<Control>();
+            Client client = new Client(17, FirstNameForm.Text, FatherNameForm.Text, SurNameForm.Text, 0, new Card());
+            Employee emp = new Employee(1005);
+            BankQuery bq = new BankQuery();
+            
+            bq.OpenConnection(@"Data Source = (local)\SQLEXPRESS; Initial Catalog = MyDB; Integrated Security = True");
+            try
+            {
+        
+                client = new Client(18, FirstNameForm.Text + "Mad", FatherNameForm.Text, SurNameForm.Text, 0, new Card());
+                bq.UpdateClientData(client, emp.EmployeeID);
+            }
 
-            string infoPath;
-            
-            
+            catch (Exception) { }
+
+            bq.CloseConnection();
         }
     }
 }
